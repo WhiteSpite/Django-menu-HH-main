@@ -1,0 +1,40 @@
+div {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #666666;
+    min-width: 70px;
+    box-shadow: 0 0 4px;
+    align-items: center;
+    padding: 0px 20px;
+    vertical-align: top;
+}
+
+.a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    &:hover {
+        color: white;
+    }
+}
+
+.current-menu {
+    color: yellow;
+    position: relative;
+    &:hover {
+        color: yellow;
+    }
+}
+
+span {
+    font-size: 11px;
+    position: absolute;
+    right: -15px;
+    top: 7px;
+}
+
+iframe {
+    display: none;
+}
